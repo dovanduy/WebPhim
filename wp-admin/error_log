@@ -1,0 +1,504 @@
+[09-Dec-2013 16:00:56 UTC] PHP Warning:  is_readable() [<a href='function.is-readable'>function.is-readable</a>]: open_basedir restriction in effect. File(/home/phim6789/domains/phim6789.com/public_html/sitemap.xml) is not within the allowed path(s): (/home/jebpymub:/usr/lib/php:/usr/php4/lib/php:/usr/local/lib/php:/usr/local/php4/lib/php:/tmp) in /home/jebpymub/public_html/wp-content/plugins/google-sitemap-generator/sitemap-ui.php on line 702
+[09-Dec-2013 16:00:56 UTC] PHP Warning:  is_readable() [<a href='function.is-readable'>function.is-readable</a>]: open_basedir restriction in effect. File(/home/phim6789/domains/phim6789.com/public_html/sitemap.xml.gz) is not within the allowed path(s): (/home/jebpymub:/usr/lib/php:/usr/php4/lib/php:/usr/local/lib/php:/usr/local/php4/lib/php:/tmp) in /home/jebpymub/public_html/wp-content/plugins/google-sitemap-generator/sitemap-ui.php on line 712
+[09-Dec-2013 16:09:48 UTC] WordPress database error Table 'jebpymub_phimhd.wp_users' doesn't exist for query SELECT * FROM wp_users WHERE user_login = '!ketvang@37' made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), WP->init, wp_get_current_user, get_currentuserinfo, wp_validate_auth_cookie, get_user_by, WP_User::get_data_by
+[09-Dec-2013 16:09:48 UTC] WordPress database error Table 'jebpymub_phimhd.wp_users' doesn't exist for query SELECT * FROM wp_users WHERE user_login = '!ketvang@37' made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), WP->init, wp_get_current_user, get_currentuserinfo, wp_validate_auth_cookie, get_user_by, WP_User::get_data_by
+[09-Dec-2013 17:29:19 UTC] WordPress database error Table 'jebpymub_phimhd.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[10-Dec-2013 15:08:18 UTC] PHP Fatal error:  Uncaught exception 'Google_ServiceException' with message 'Error calling GET https://www.googleapis.com/analytics/v3/data/ga?ids=ga%3A75854277&start-date=2013-11-10&end-date=2013-12-09&metrics=ga%3Avisits&dimensions=ga%3Akeyword&sort=-ga%3Avisits&filters=ga%3Akeyword%21%3D%28not%20set%29&max-results=5: (403) Quota Error: User Rate Limit Exceeded.' in /home/jebpymub/public_html/wp-content/plugins/google-analyticator/google-api-php-client/src/io/Google_REST.php:66
+Stack trace:
+#0 /home/jebpymub/public_html/wp-content/plugins/google-analyticator/google-api-php-client/src/io/Google_REST.php(36): Google_REST::decodeHttpResponse(Object(Google_HttpRequest))
+#1 /home/jebpymub/public_html/wp-content/plugins/google-analyticator/google-api-php-client/src/service/Google_ServiceResource.php(177): Google_REST::execute(Object(Google_HttpRequest))
+#2 /home/jebpymub/public_html/wp-content/plugins/google-analyticator/google-api-php-client/src/contrib/Google_AnalyticsService.php(274): Google_ServiceResource->__call('get', Array in /home/jebpymub/public_html/wp-content/plugins/google-analyticator/google-api-php-client/src/io/Google_REST.php on line 66
+[10-Dec-2013 15:08:19 UTC] WordPress database error Table 'jebpymub_phimhd.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[10-Dec-2013 15:08:23 UTC] WordPress database error Table 'jebpymub_phimhd.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[10-Dec-2013 15:08:56 UTC] WordPress database error Table 'jebpymub_phimhd.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[10-Dec-2013 15:09:38 UTC] WordPress database error Table 'jebpymub_phimhd.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[10-Dec-2013 15:09:42 UTC] WordPress database error Table 'jebpymub_phimhd.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[10-Dec-2013 15:09:51 UTC] WordPress database error Table 'jebpymub_phimhd.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[10-Dec-2013 15:10:26 UTC] WordPress database error Table 'jebpymub_phimhd.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[10-Dec-2013 15:25:24 UTC] WordPress database error Table 'jebpymub_phimhd.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[10-Dec-2013 15:25:33 UTC] WordPress database error Table 'jebpymub_phimhd.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[10-Dec-2013 15:25:59 UTC] WordPress database error Table 'jebpymub_phimhd.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[10-Dec-2013 15:28:26 UTC] WordPress database error Table 'jebpymub_phimhd.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[10-Dec-2013 16:22:44 UTC] WordPress database error Table 'jebpymub_phimhd.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[10-Dec-2013 16:22:52 UTC] WordPress database error Table 'jebpymub_phimhd.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[10-Dec-2013 16:24:20 UTC] WordPress database error Table 'jebpymub_phimhd.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[10-Dec-2013 19:10:49 UTC] WordPress database error Table 'jebpymub_phimhd.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[10-Dec-2013 19:10:53 UTC] WordPress database error Table 'jebpymub_phimhd.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[10-Dec-2013 19:10:56 UTC] WordPress database error Table 'jebpymub_phimhd.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[10-Dec-2013 19:11:10 UTC] WordPress database error Table 'jebpymub_phimhd.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[10-Dec-2013 19:11:10 UTC] WordPress database error Table 'jebpymub_phimhd.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[11-Dec-2013 18:56:08 UTC] WordPress database error Table 'jebpymub_phimhd.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[11-Dec-2013 18:56:12 UTC] WordPress database error Table 'jebpymub_phimhd.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[11-Dec-2013 18:56:15 UTC] WordPress database error Table 'jebpymub_phimhd.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[11-Dec-2013 18:56:25 UTC] WordPress database error Table 'jebpymub_phimhd.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[18-Jul-2014 09:42:11 UTC] PHP Warning:  include(/home/jebpymub/public_html/wp-content/plugins/wp-super-cache/wp-cache-base.php): failed to open stream: No such file or directory in /home/xemph/public_html/phim6789/wp-content/plugins/wp-super-cache/wp-cache.php on line 63
+[18-Jul-2014 09:42:11 UTC] PHP Warning:  include(): Failed opening '/home/jebpymub/public_html/wp-content/plugins/wp-super-cache/wp-cache-base.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/xemph/public_html/phim6789/wp-content/plugins/wp-super-cache/wp-cache.php on line 63
+[18-Jul-2014 09:42:11 UTC] PHP Warning:  include_once(/home/jebpymub/public_html/wp-content/plugins/wp-super-cache/ossdl-cdn.php): failed to open stream: No such file or directory in /home/xemph/public_html/phim6789/wp-content/plugins/wp-super-cache/wp-cache.php on line 80
+[18-Jul-2014 09:42:11 UTC] PHP Warning:  include_once(): Failed opening '/home/jebpymub/public_html/wp-content/plugins/wp-super-cache/ossdl-cdn.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/xemph/public_html/phim6789/wp-content/plugins/wp-super-cache/wp-cache.php on line 80
+[18-Jul-2014 09:45:04 UTC] PHP Warning:  include(/home/jebpymub/public_html/wp-content/plugins/wp-super-cache/wp-cache-base.php): failed to open stream: No such file or directory in /home/xemph/public_html/phim6789/wp-content/plugins/wp-super-cache/wp-cache.php on line 63
+[18-Jul-2014 09:45:04 UTC] PHP Warning:  include(): Failed opening '/home/jebpymub/public_html/wp-content/plugins/wp-super-cache/wp-cache-base.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/xemph/public_html/phim6789/wp-content/plugins/wp-super-cache/wp-cache.php on line 63
+[18-Jul-2014 09:45:04 UTC] PHP Warning:  include_once(/home/jebpymub/public_html/wp-content/plugins/wp-super-cache/ossdl-cdn.php): failed to open stream: No such file or directory in /home/xemph/public_html/phim6789/wp-content/plugins/wp-super-cache/wp-cache.php on line 80
+[18-Jul-2014 09:45:04 UTC] PHP Warning:  include_once(): Failed opening '/home/jebpymub/public_html/wp-content/plugins/wp-super-cache/ossdl-cdn.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/xemph/public_html/phim6789/wp-content/plugins/wp-super-cache/wp-cache.php on line 80
+[18-Jul-2014 09:45:58 UTC] PHP Warning:  include(/home/jebpymub/public_html/wp-content/plugins/wp-super-cache/wp-cache-base.php): failed to open stream: No such file or directory in /home/xemph/public_html/phim6789/wp-content/plugins/wp-super-cache/wp-cache.php on line 63
+[18-Jul-2014 09:45:58 UTC] PHP Warning:  include(): Failed opening '/home/jebpymub/public_html/wp-content/plugins/wp-super-cache/wp-cache-base.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/xemph/public_html/phim6789/wp-content/plugins/wp-super-cache/wp-cache.php on line 63
+[18-Jul-2014 09:45:58 UTC] PHP Warning:  include_once(/home/jebpymub/public_html/wp-content/plugins/wp-super-cache/ossdl-cdn.php): failed to open stream: No such file or directory in /home/xemph/public_html/phim6789/wp-content/plugins/wp-super-cache/wp-cache.php on line 80
+[18-Jul-2014 09:45:58 UTC] PHP Warning:  include_once(): Failed opening '/home/jebpymub/public_html/wp-content/plugins/wp-super-cache/ossdl-cdn.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/xemph/public_html/phim6789/wp-content/plugins/wp-super-cache/wp-cache.php on line 80
+[15-Aug-2014 19:02:45] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[15-Aug-2014 19:16:29] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[15-Aug-2014 19:19:50] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[15-Aug-2014 19:20:26] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[16-Aug-2014 07:33:13] PHP Fatal error:  Uncaught exception 'Google_ServiceException' with message 'Error calling GET https://www.googleapis.com/analytics/v3/data/ga?ids=ga%3A75854277&start-date=2014-07-17&end-date=2014-08-15&metrics=ga%3Avisits&dimensions=ga%3Akeyword&sort=-ga%3Avisits&filters=ga%3Akeyword%21%3D%28not%20set%29&max-results=5: (403) Quota Error: User Rate Limit Exceeded.' in /home/phongchi/public_html/hayhay24.com/wp-content/plugins/google-analyticator/google-api-php-client/src/io/Google_REST.php:66
+Stack trace:
+#0 /home/phongchi/public_html/hayhay24.com/wp-content/plugins/google-analyticator/google-api-php-client/src/io/Google_REST.php(36): Google_REST::decodeHttpResponse(Object(Google_HttpRequest))
+#1 /home/phongchi/public_html/hayhay24.com/wp-content/plugins/google-analyticator/google-api-php-client/src/service/Google_ServiceResource.php(186): Google_REST::execute(Object(Google_HttpRequest))
+#2 /home/phongchi/public_html/hayhay24.com/wp-content/plugins/google-analyticator/google-api-php-client/src/contrib/Google_AnalyticsService.p in /home/phongchi/public_html/hayhay24.com/wp-content/plugins/google-analyticator/google-api-php-client/src/io/Google_REST.php on line 66
+[16-Aug-2014 07:41:41] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[16-Aug-2014 07:42:09] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[16-Aug-2014 07:42:13] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[16-Aug-2014 07:42:13] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[16-Aug-2014 07:44:42] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[16-Aug-2014 07:45:23] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[16-Aug-2014 07:46:06] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[16-Aug-2014 07:46:06] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[16-Aug-2014 07:46:40] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[16-Aug-2014 08:11:07] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by include('wp-admin/edit-form-advanced.php'), do_meta_boxes, call_user_func, show_custom_box, GetServerToSelectBox
+[17-Aug-2014 08:55:33] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 08:58:50] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'columns) FROM `wp_Spider_Video_Player_theme` LIKE 'openPlaylistAtStart'' at line 1 for query SHOW COUNT(columns) FROM `wp_Spider_Video_Player_theme` LIKE 'openPlaylistAtStart' made by activate_plugin, do_action('activate_player/Player.php'), call_user_func_array, Spider_Video_Player_activate
+[17-Aug-2014 08:58:51] WordPress database error Duplicate column name 'openPlaylistAtStart' for query ALTER TABLE `wp_Spider_Video_Player_theme` ADD `openPlaylistAtStart` tinyint(1) NOT NULL made by activate_plugin, do_action('activate_player/Player.php'), call_user_func_array, Spider_Video_Player_activate
+[17-Aug-2014 15:59:35] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 15:59:41] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 15:59:41] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 15:59:50] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 15:59:50] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 15:59:54] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:05:43] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S END 2013', 'NOT Pinging (%title% was edited)', '5')' at line 2 for query INSERT INTO wp_cbnetpo_ping_optimizer (date_time, post_title, log_data, type) 
+			          VALUES ('2014-08-18 02:05:42', ' KẾT THÚC CỦA THẾ GIỚI - THE WORLD'S END 2013', 'NOT Pinging (%title% was edited)', '5') made by wp_trash_post, wp_insert_post, do_action('save_post'), call_user_func_array, cbnetPingOptimizer->cbnetpoPing, cbnetPingOptimizer->cbnetpoLog
+[17-Aug-2014 19:19:00] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:19:13] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:19:15] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:20:34] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:20:36] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:20:52] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:20:53] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:20:53] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:21:10] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:21:25] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:21:27] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:21:27] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:21:41] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:23:31] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:23:33] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:23:33] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:35:56] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:36:06] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:36:08] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:36:08] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:37:33] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:37:38] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:37:40] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:37:40] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:37:49] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:37:51] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:37:51] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:38:17] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:39:03] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:39:05] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:39:05] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:39:43] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:39:48] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:39:55] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:39:57] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:39:57] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:40:02] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:40:36] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:41:54] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:42:15] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:42:36] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:43:02] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[17-Aug-2014 19:43:36] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:11:23] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:11:31] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:12:27] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:13:52] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:14:19] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:14:48] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:15:18] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:15:41] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:16:07] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:16:30] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:17:04] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:17:29] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:17:58] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:18:20] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:19:08] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:20:18] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:20:40] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:21:07] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:21:30] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:21:55] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:22:22] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:22:24] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:22:24] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:22:55] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:23:35] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:24:00] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:24:24] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:24:43] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:25:07] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:25:32] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:26:00] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:28:11] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:28:34] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:28:56] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:29:18] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:29:37] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:29:57] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:30:17] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:30:34] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:30:57] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:31:17] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:31:35] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:31:54] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:32:22] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:32:40] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:33:01] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:33:18] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:33:37] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:34:07] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:34:26] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:34:50] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:35:14] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:35:38] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:36:10] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:36:28] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:36:47] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:37:07] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:37:25] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:37:44] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:38:28] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 04:39:12] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox
+[19-Aug-2014 10:05:22] PHP Fatal error:  Uncaught exception 'Google_ServiceException' with message 'Error calling GET https://www.googleapis.com/analytics/v3/data/ga?ids=ga%3A75854277&start-date=2014-07-20&end-date=2014-08-18&metrics=ga%3Apageviews&dimensions=ga%3ApageTitle%2Cga%3ApagePath&sort=-ga%3Apageviews&filters=ga%3ApagePath%21%3D%2F&max-results=10: (403) Quota Error: User Rate Limit Exceeded.' in /home/phongchi/public_html/hayhay24.com/wp-content/plugins/google-analyticator/google-api-php-client/src/io/Google_REST.php:66
+Stack trace:
+#0 /home/phongchi/public_html/hayhay24.com/wp-content/plugins/google-analyticator/google-api-php-client/src/io/Google_REST.php(36): Google_REST::decodeHttpResponse(Object(Google_HttpRequest))
+#1 /home/phongchi/public_html/hayhay24.com/wp-content/plugins/google-analyticator/google-api-php-client/src/service/Google_ServiceResource.php(186): Google_REST::execute(Object(Google_HttpRequest))
+#2 /home/phongchi/public_html/hayhay24.com/wp-content/plugins/google-analyticator/google-api-php-client/src/contrib/Google_Anal in /home/phongchi/public_html/hayhay24.com/wp-content/plugins/google-analyticator/google-api-php-client/src/io/Google_REST.php on line 66
+[19-Aug-2014 10:05:22] PHP Fatal error:  Uncaught exception 'Google_ServiceException' with message 'Error calling GET https://www.googleapis.com/analytics/v3/data/ga?ids=ga%3A75854277&start-date=2014-07-20&end-date=2014-08-18&metrics=ga%3Avisits%2Cga%3Abounces%2Cga%3Aentrances%2Cga%3Apageviews%2Cga%3AtimeOnSite%2Cga%3AnewVisits: (403) Quota Error: User Rate Limit Exceeded.' in /home/phongchi/public_html/hayhay24.com/wp-content/plugins/google-analyticator/google-api-php-client/src/io/Google_REST.php:66
+Stack trace:
+#0 /home/phongchi/public_html/hayhay24.com/wp-content/plugins/google-analyticator/google-api-php-client/src/io/Google_REST.php(36): Google_REST::decodeHttpResponse(Object(Google_HttpRequest))
+#1 /home/phongchi/public_html/hayhay24.com/wp-content/plugins/google-analyticator/google-api-php-client/src/service/Google_ServiceResource.php(186): Google_REST::execute(Object(Google_HttpRequest))
+#2 /home/phongchi/public_html/hayhay24.com/wp-content/plugins/google-analyticator/google-api-php-client/src/contrib/Google_AnalyticsService.php(59): Google in /home/phongchi/public_html/hayhay24.com/wp-content/plugins/google-analyticator/google-api-php-client/src/io/Google_REST.php on line 66
+[19-Aug-2014 10:05:22] PHP Fatal error:  Uncaught exception 'Google_ServiceException' with message 'Error calling GET https://www.googleapis.com/analytics/v3/data/ga?ids=ga%3A75854277&start-date=2014-07-20&end-date=2014-08-18&metrics=ga%3Avisits%2Cga%3Abounces%2Cga%3Aentrances%2Cga%3Apageviews%2Cga%3AtimeOnSite%2Cga%3AnewVisits: (403) Quota Error: User Rate Limit Exceeded.' in /home/phongchi/public_html/hayhay24.com/wp-content/plugins/google-analyticator/google-api-php-client/src/io/Google_REST.php:66
+Stack trace:
+#0 /home/phongchi/public_html/hayhay24.com/wp-content/plugins/google-analyticator/google-api-php-client/src/io/Google_REST.php(36): Google_REST::decodeHttpResponse(Object(Google_HttpRequest))
+#1 /home/phongchi/public_html/hayhay24.com/wp-content/plugins/google-analyticator/google-api-php-client/src/service/Google_ServiceResource.php(186): Google_REST::execute(Object(Google_HttpRequest))
+#2 /home/phongchi/public_html/hayhay24.com/wp-content/plugins/google-analyticator/google-api-php-client/src/contrib/Google_AnalyticsService.php(59): Google in /home/phongchi/public_html/hayhay24.com/wp-content/plugins/google-analyticator/google-api-php-client/src/io/Google_REST.php on line 66
+[19-Aug-2014 10:05:22] PHP Fatal error:  Uncaught exception 'Google_ServiceException' with message 'Error calling GET https://www.googleapis.com/analytics/v3/data/ga?ids=ga%3A75854277&start-date=2014-07-20&end-date=2014-08-18&metrics=ga%3Apageviews&dimensions=ga%3ApageTitle%2Cga%3ApagePath&sort=-ga%3Apageviews&filters=ga%3ApagePath%21%3D%2F&max-results=10: (403) Quota Error: User Rate Limit Exceeded.' in /home/phongchi/public_html/hayhay24.com/wp-content/plugins/google-analyticator/google-api-php-client/src/io/Google_REST.php:66
+Stack trace:
+#0 /home/phongchi/public_html/hayhay24.com/wp-content/plugins/google-analyticator/google-api-php-client/src/io/Google_REST.php(36): Google_REST::decodeHttpResponse(Object(Google_HttpRequest))
+#1 /home/phongchi/public_html/hayhay24.com/wp-content/plugins/google-analyticator/google-api-php-client/src/service/Google_ServiceResource.php(186): Google_REST::execute(Object(Google_HttpRequest))
+#2 /home/phongchi/public_html/hayhay24.com/wp-content/plugins/google-analyticator/google-api-php-client/src/contrib/Google_Anal in /home/phongchi/public_html/hayhay24.com/wp-content/plugins/google-analyticator/google-api-php-client/src/io/Google_REST.php on line 66
+[19-Aug-2014 11:04:44] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Eat', 'NOT Pinging (%title% was edited)', '5')' at line 2 for query INSERT INTO wp_cbnetpo_ping_optimizer (date_time, post_title, log_data, type) 
+			          VALUES ('2014-08-19 18:04:43', 'Let's Eat', 'NOT Pinging (%title% was edited)', '5') made by wp_trash_post, wp_insert_post, do_action('save_post'), call_user_func_array, cbnetPingOptimizer->cbnetpoPing, cbnetPingOptimizer->cbnetpoLog
+[19-Aug-2014 11:08:38] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S FINEST', 'NOT Pinging (%title% was edited)', '5')' at line 2 for query INSERT INTO wp_cbnetpo_ping_optimizer (date_time, post_title, log_data, type) 
+			          VALUES ('2014-08-19 18:08:37', 'DIVISION III: FOOTBALL'S FINEST', 'NOT Pinging (%title% was edited)', '5') made by wp_trash_post, wp_insert_post, do_action('save_post'), call_user_func_array, cbnetPingOptimizer->cbnetpoPing, cbnetPingOptimizer->cbnetpoLog
+[19-Aug-2014 19:21:37] WordPress database error Table 'phongchi_hay24.wp_film_server' doesn't exist for query SELECT server_id, server_name  
+    FROM wp_film_server  
+    ORDER BY server_order ASC made by do_action('toplevel_page_film_episode'), call_user_func_array, FilmEpisodeMenu, GetServerToSelectBox

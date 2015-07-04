@@ -1,0 +1,44 @@
+﻿1
+00:00:00,000 --> 00:00:10,000
+<font face="Palatino Linotype" size="14" color="blue">Bạn đang xem phim tại website phim6789.com - Vui lòng click một vài link quảng cáo để ủng hộ web nhé </font>
+<font face="Palatino Linotype" size="13" color="#DCDCDC">Chúc các bạn xem phim vui vẻ 
+</font>
+
+2
+00:15:00,378 --> 00:15:05,245
+<font face="Palatino Linotype" size="14" color="blue">Bạn đang xem phim tại website phim6789.com - Vui lòng click một vài link quảng cáo để ủng hộ web nhé</font>
+<font face="Palatino Linotype" size="13" color="#DCDCDC">Chúc các bạn xem phim vui vẻ 
+</font>
+
+3
+00:30:00,367 --> 00:30:05,034
+<font face="Palatino Linotype" size="14" color="blue">Bạn đang xem phim tại website phim6789.com - Vui lòng click một vài link quảng cáo để ủng hộ web nhé </font>
+<font face="Palatino Linotype" size="13" color="#DCDCDC">Chúc các bạn xem phim vui vẻ 
+</font>
+
+4
+00:40:00,367 --> 00:40:07,034
+<font face="Palatino Linotype" size="14" color="blue">Bạn đang xem phim tại website phim6789.com - Vui lòng click một vài link quảng cáo để ủng hộ web nhé</font>
+<font face="Palatino Linotype" size="13" color="#DCDCDC">Chúc các bạn xem phim vui vẻ
+</font>
+
+5
+00:59:00,870 --> 00:59:15,338
+<font face="Palatino Linotype" size="14" color="blue">Bạn đang xem phim tại website phim6789.com - Vui lòng click một vài link quảng cáo để ủng hộ web nhé</font>
+<font face="Palatino Linotype" size="13" color="#DCDCDC">Chúc các bạn xem phim vui vẻ
+</font>
+
+6
+00:88:00,870 --> 00:88:10,338
+<font face="Palatino Linotype" size="14" color="blue">Hãy ghé thăm: </font> <font face="Palatino Linotype" size="14" color="blue">phim6789.com thường xuyên</font>  <font face="Palatino Linotype" size="13" color="#DCDCDC">
+Để xem những bộ phim hay khác - Vui lòng click một vài link quảng cáo để ủng hộ web nhé</font>
+
+7
+00:100:00,870 --> 00:100:10,338
+<font face="Palatino Linotype" size="14" color="blue">Hãy ghé thăm: </font> <font face="Palatino Linotype" size="14" color="blue">phim6789.com thường xuyên</font>  <font face="Palatino Linotype" size="13" color="#DCDCDC">
+Để xem những bộ phim hay khác - Vui lòng click một vài link quảng cáo để ủng hộ web nhé</font>
+
+8
+00:118:00,870 --> 00:118:17,338
+<font face="Palatino Linotype" size="14" color="blue">Hãy ghé thăm: </font> <font face="Palatino Linotype" size="14" color="blue">phim6789.com thường xuyên</font>  <font face="Palatino Linotype" size="13" color="#DCDCDC">
+Để xem những bộ phim hay khác - Vui lòng click một vài link quảng cáo để ủng hộ web nhé</font>

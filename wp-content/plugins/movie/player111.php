@@ -1,0 +1,125 @@
+<?php
+
+function cut_str($str_cut,$str_c,$val)
+{	
+	$url=explode($str_cut,$str_c);
+	$urlv=$url[$val];
+	return $urlv;
+}
+
+
+function players($url,$sub=""){
+global $wpdb;$type=acp_type($url);
+
+
+//$url = get_link_total($url);
+if($type==11 or $type==101) $player='<script type="text/javascript">
+	jwplayer("mediaplayer").setup({
+    "flashplayer": "http://phimtv.net/player/player.swf",
+    "width": "100%",
+    "height": "100%",
+    "proxy.link": "'.$url.'",
+	"repeat": "list",
+    "autostart": "true",
+"skin":"http://phim6789.com/player/skin/lightrv5/lightrv5.xml",
+"controlbar":"bottom",
+    "plugins": "http://phim6789.com/wp-content/plugins/movie/captions.swf,http://sv.phim6789.com/phim6789/proxy.swf",
+    "captions.file": "'.$sub.'",
+    "captions.color": "#FFCC00",
+    "captions.fontFamily": "Arian,sans-serif",
+    "captions.fontSize": "18",
+        "captions.fontWeight": "10",
+	"logo.file":       "http://phim6789.com/logo.png",
+	"logo.position":       "top-left",
+	"logo.margin":       "18",
+	"logo.over":       "1",
+	"logo.out":       "1",
+	"logo.hide":       "false",
+	events: {
+            onComplete: function autonext() {
+	 phim6789.Watch.autoNextExecute();
+}
+
+        }
+	});
+	</script>';
+elseif($type==96) $player='<script type="text/javascript">
+	jwplayer("mediaplayer").setup({
+    "flashplayer": "http://phimtv.net/player/player.swf",
+    "width": "100%",
+    "height": "100%",
+    "proxy.link": "'.$url.'",
+	"repeat": "list",
+    "autostart": "true",
+"skin":"http://phim6789.com/player/skin/lightrv5/lightrv5.xml",
+"controlbar":"bottom",
+    "plugins": "http://phim6789.com/wp-content/plugins/movie/captions.swf,http://sv.phim6789.com/phim6789/proxy.swf",
+    "captions.file": "'.$sub.'",
+    "captions.color": "#FFCC00",
+    "captions.fontFamily": "Arian,sans-serif",
+    "captions.fontSize": "18",
+        "captions.fontWeight": "10",
+	"logo.file":       "http://phim6789.com/logo.png",
+	"logo.position":       "top-left",
+	"logo.margin":       "18",
+	"logo.over":       "1",
+	"logo.out":       "1",
+	"logo.hide":       "false",
+	events: {
+            onComplete: function autonext() {
+	 phim6789.Watch.autoNextExecute();
+}
+
+        }
+	});
+	</script>';
+else
+$player = '<script type="text/javascript">
+	jwplayer("mediaplayer").setup({
+    "flashplayer": "http://phimtv.net/player/player.swf",
+    "width": "100%",
+    "height": "100%",
+    "proxy.link": "'.$url.'",
+	"repeat": "list",
+    "autostart": "true",
+"skin":"http://phim6789.com/player/skin/lightrv5/lightrv5.xml",
+"controlbar":"bottom",
+    "plugins": "http://phim6789.com/wp-content/plugins/movie/captions.swf,http://sv.phim6789.com/phim6789/proxy.swf",
+    "captions.file": "'.$sub.'",
+    "captions.color": "#FFCC00",
+    "captions.fontFamily": "Arian,sans-serif",
+    "captions.fontSize": "18",
+        "captions.fontWeight": "10",
+	"logo.file":       "http://phim6789.com/logo.png",
+	"logo.position":       "top-left",
+	"logo.margin":       "18",
+	"logo.over":       "1",
+	"logo.out":       "1",
+	"logo.hide":       "false",
+	events: {
+            onComplete: function autonext() {
+	 phim6789.Watch.autoNextExecute();
+}
+
+        }
+	});
+	</script>';	
+//$player=base64_encode($player);
+  //return '<script type="text/javascript">document.write(player.decode("'.$player.'"));</script>'; 
+  return $player;
+}
+function players2($url,$sub=""){
+global $wpdb;$type=acp_type($url);
+$url=get_link_total2($url);
+if($type==5 || $type==6 || $type==7 || $type==8 || $type==9 || $type==3)
+ $player='<video id="my_video_1" class="video-js vjs-default-skin" controls
+ preload="auto" width="100%" height="100%" poster="my_video_poster.png"
+ data-setup="{}">
+ <source src="'.$url.'" type="video/mp4"> 
+</video>';
+else $player='<iframe width="100%" height="100%" src="'.$url.'" frameborder="0" allowfullscreen></iframe>';
+//$player=base64_encode($player);
+  //return '<script type="text/javascript">document.write(player.decode("'.$player.'"));</script>'; 
+  return $player;
+}
+?>

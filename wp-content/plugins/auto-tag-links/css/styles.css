@@ -1,0 +1,15 @@
+/* CSS Document */
+
+a.autobesttag {
+	background-image:url(../images/tag_off.png);
+	padding-right:17px;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+a.autobesttag:hover {
+	background-image:url(../images/tag_on.png);
+	padding-right:17px;
+	background-repeat: no-repeat;
+	background-position: right center;
+}

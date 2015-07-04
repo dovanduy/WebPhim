@@ -1,0 +1,1 @@
+[27-Oct-2013 22:54:48] PHP Fatal error:  Call to undefined function  get_header() in /home/phimcom/public_html/wp-content/themes/phim6789/index.php on line 1

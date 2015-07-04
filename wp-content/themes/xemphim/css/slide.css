@@ -1,0 +1,28 @@
+﻿#slide-panel{position: relative; width: 350px}
+#slide {background: #eee; width: 350px; height: 245px}
+#slide img { width: 350px; height: 245px }
+#slide div div{padding: 10px; z-index: 500;margin-top:-50px;}
+#slide div div p{line-height: 20px; text-align: justify}
+#slide div div h3{width: 85%;}
+#slide div div h3 a{color: #6699FF; text-decoration: none;background-color:#000000;}
+
+/* Button panel, chỉ số z-index lớn hơn các thành phần khác để hiện thị bên trên */
+.button{position: absolute; bottom: 95px; right: 7px; z-index: 1000}
+/* Next and prev button, sử dụng Sprite image */
+.prev,
+.next,
+.next:hover,
+.prev:hover {
+	display: block; 
+	width: 14px; 
+	height: 14px;
+	background: url(button.png) no-repeat; 
+	text-indent: -999999px;
+	float: left;
+	margin-right: 5px;
+	cursor: pointer
+}
+.next {background-position: top left}
+.prev {background-position: bottom left}
+.next:hover {background-position: top right}
+.prev:hover {background-position: bottom right}

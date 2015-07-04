@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteRule ^svv1vn-(.*).html$ v1vn.php?link=http://v1vn.com/xem-phim-online/$1.html [L]
+RewriteRule ^svhg-(.*).html$ hg.php?link=http://www.hayghe.com/xem-phim/$1.html [L]
+RewriteRule ^(.*)-sv(.*).xml$ xml.php?film_id=$1&sv=$2 [L]
+RewriteRule ^xml.xml$ xml.php [L]
+RewriteRule ^embed/(.*).swf$ share.php?id=$1 [L]

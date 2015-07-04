@@ -1,0 +1,42 @@
+# BEGIN Better WP Security
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+RewriteRule ^valkyria1815/?$ /wp-login.php?vur0y5bfjjhf6lukarc6v [R,L]
+
+RewriteCond %{HTTP_COOKIE} !^.*wordpress_logged_in_.*$
+RewriteRule ^admin/?$ /wp-login.php?vur0y5bfjjhf6lukarc6v&redirect_to=/wp-admin/ [R,L]
+
+RewriteRule ^admin/?$ /wp-admin/?vur0y5bfjjhf6lukarc6v [R,L]
+
+RewriteRule ^register/?$ /wp-login.php?vur0y5bfjjhf6lukarc6v&action=register [R,L]
+
+RewriteCond %{SCRIPT_FILENAME} !^(.*)admin-ajax\.php
+RewriteCond %{HTTP_REFERER} !^(.*)vn-it.net/wp-admin
+RewriteCond %{HTTP_REFERER} !^(.*)vn-it.net/wp-login\.php
+RewriteCond %{HTTP_REFERER} !^(.*)vn-it.net/valkyria1815
+RewriteCond %{HTTP_REFERER} !^(.*)vn-it.net/admin
+RewriteCond %{HTTP_REFERER} !^(.*)vn-it.net/register
+RewriteCond %{QUERY_STRING} !^vur0y5bfjjhf6lukarc6v
+RewriteCond %{QUERY_STRING} !^action=logout
+RewriteCond %{QUERY_STRING} !^action=rp
+RewriteCond %{QUERY_STRING} !^action=register
+RewriteCond %{QUERY_STRING} !^action=postpass
+RewriteCond %{HTTP_COOKIE} !^.*wordpress_logged_in_.*$
+
+
+RewriteCond %{QUERY_STRING} ^loggedout=true
+RewriteRule ^.*$ /wp-login.php?vur0y5bfjjhf6lukarc6v [R,L]
+</IfModule>
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /phim/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /phim/index.php [L]
+</IfModule>
+
+# END WordPress
