@@ -171,13 +171,6 @@ p {
 	margin: 16px 0 0 0;
 }
 
-.login #nav a,
-.login #backtoblog a {
-	text-decoration: none;
-	color: #999;
-}
-
-.login #nav a:hover,
 .login #backtoblog a:hover,
 .login h1 a:hover {
 	color: #00a0d2;
@@ -220,7 +213,7 @@ p {
 	margin-right: 0;
 }
 
-.mobile #login #nav,
+.mobile #login ,
 .mobile #login #backtoblog {
 	margin-right: 8px;
 }

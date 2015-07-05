@@ -22,7 +22,7 @@
 	}
 	
 	.header{
-		background: #000 url(../img/header-bg.jpg) repeat-x;
+		
 		height: 75px;
 		width: 100%;
 		padding: 0 25px;
@@ -911,10 +911,10 @@
 /* _start Footer */
 
 	.footer{
-		background: url(../img/micro_carbon.png);
+		background: transparent url("../img/micro_carbon.png") repeat scroll 0% 0%;
 		min-height: 100px;
 		padding: 20px 25px 15px;
-		border-top: 3px solid #dacb46;
+		border-top: 3px solid #DACB46;
 		border-bottom: 1px solid #111;
 		margin-top: 20px;
 	}

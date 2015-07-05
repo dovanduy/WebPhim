@@ -159,9 +159,13 @@ function img3($width,$height) {
 	$attachments = get_children( array('post_parent' => $post->ID, 'post_status' => 'inherit', 'post_type' => 'attachment', 'post_mime_type' => 'image', 'numberposts' => 1) );
 	if(has_post_thumbnail()){
 		$domsxe = simplexml_load_string(get_the_post_thumbnail($post->ID,'full'));
-		$thumbnailsrc = $domsxe->attributes()->src;
-		$img_url = parse_url($thumbnailsrc,PHP_URL_PATH);
-	$img=get_bloginfo('template_url')."/thumb.php?src=$img_url&amp;w=$width&amp;h=$height&amp;q=100";
+		if($domsxe == NULL){
+			$img = 'http://chiasekinhnghiem.com/EStore/Web/skins/Tapchidienlanh/images/no-image-news.gif';
+		}else{
+			$thumbnailsrc = $domsxe->attributes()->src;
+			$img_url = parse_url($thumbnailsrc,PHP_URL_PATH);
+			$img=get_bloginfo('template_url')."/thumb.php?src=$img_url&amp;w=$width&amp;h=$height&amp;q=100";
+		}
 	}
 	elseif ($custom_field_value_2 == true) {
 	$img= $custom_field_value_2;
